@@ -1,0 +1,44 @@
+.bg{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-image: url('https://art.pixilart.com/thumb/1aa616cf38f33fe.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.emoji{
+	height: 300px;
+	width: 180px;
+	float: left;
+	/*background-color: red;*/
+	margin-top: 220px;
+	border: none;
+	/*margin-top: -10px;*/	
+}
+
+.img{
+	height: 150px;
+	width: 150px;
+	border: none;
+	margin-top: 200px;
+	animation-name: run;
+	animation-duration: 15s;
+	position: absolute;
+}
+
+@keyframes run{
+	0%{bottom: 90px;left: 0px;}
+	10%{bottom: 90PX;left: 50PX;}
+	15%{bottom: 180px;left: 50px;}
+	20%{bottom: 180px;left: 230px;}
+	25%{bottom: 260px;left: 230px;}
+	30%{bottom: 260px;left: 420px;}
+	35%{bottom: 350px;left: 420px;}
+	40%{bottom: 350px;left: 610px;}
+	45%{bottom: 440px;left: 610px;}
+	50%{bottom: 440px;left: 800px;}
+	55%{bottom: 530px;left: 800px;}
+	60%{bottom: 530px;left: 1200px;}
+}
+
